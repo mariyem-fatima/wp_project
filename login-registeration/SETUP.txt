@@ -1,0 +1,40 @@
+1. Download XAMPP:
+   - Go to https://www.apachefriends.org/download.html
+   - Download the latest version of XAMPP for Windows
+   - The installer will be named something like `xampp-windows-x64-8.x.x-x-VS16-installer.exe`
+
+2. Install XAMPP:
+   - Run the downloaded installer
+   - Follow the installation wizard
+   - Choose the default installation location (usually C:\xampp)
+   - Select at least Apache and MySQL components during installation
+
+3. After installation, start XAMPP Control Panel:
+   - Go to C:\xampp
+   - Run `xampp-control.exe`
+
+4. In XAMPP Control Panel:
+   - Click "Start" next to Apache
+   - Click "Start" next to MySQL
+
+5. Move your project files:
+   - Copy all your PHP files to `C:\xampp\htdocs\assign`
+   - This includes:
+     - config.php
+     - index.php
+     - login.php
+     - logout.php
+     - register.php
+     - style.css
+     - database.sql
+
+6. Set up the database:
+   - Open your web browser
+   - Go to http://localhost/phpmyadmin
+   - Click on "Import" in the top menu
+   - Choose the database.sql file
+   - Click "Go" to import the database structure
+
+7. Access your application:
+   - Open your web browser
+   - Go to http://localhost/assign
